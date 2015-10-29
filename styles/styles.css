@@ -1,3 +1,164 @@
 @charset "UTF-8";
-/* CSS Document */
 
+/*Text*/
+
+@font-face {
+	font-family: "Walkway";
+	src:url(../fonts/Walkway%20SemiBold.ttf);
+	}
+
+@font-face {
+	font-family: "Autumn Chant";
+	src:url(../fonts/Autumn%20Chant.otf);
+	}
+
+body{
+	font-family:"Walkway";
+	letter-spacing: 1px;
+	background-image:url(../img/paper.png);
+	}
+	
+h1{
+	padding-top: 30px;
+	font-family:"Autumn Chant";
+	font-size: 80px;
+	}
+		
+h2{
+	padding-bottom: 5px;
+	}
+	
+p{
+	font-size:16px;
+	line-height:17px;
+	}
+	
+strong{
+	font-size: 18px;
+	}
+	
+ul{
+	list-style-position:inside;
+	}
+
+a{
+	color: #ffffff;
+	}
+	
+a:hover{
+	color:#E1E1E1;
+	}
+	
+/*Header*/
+
+.header{
+	border-bottom-right-radius: 5px;
+	text-align:center;
+	color: #ffffff;
+	width: 100%;
+	background-color:#6ac8ba;
+	height: 210px;
+	}
+
+.header h1{
+	color: #ffffff;
+	text-align:center;
+	}
+
+/*Navigation*/
+nav{
+	border-bottom: 2px white dotted;
+	border-top: 2px white dotted;
+	}
+
+nav ul {
+	text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+
+nav li {
+	padding: 10px;
+	padding-bottom:0;
+    display: inline;
+	}
+
+/*Aside*/
+
+img{
+	border-radius: 110%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+	padding-bottom:15px;
+	}
+	
+.aside{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius:5px;
+	background-color:#6ac8ba;
+	color: #ffffff;
+	}
+
+.aside p, li{
+	line-height:22px;}
+	
+	
+/*Body*/
+	
+.section{
+	padding: 10px;
+	}
+
+.innersection{
+	padding:10px;
+	}
+
+.main .section{
+	border-radius: 3px;
+	margin: 5px;
+	background-color: rgba(255,255,255,0.7);
+	}
+	
+.main a{
+	color: #000000;
+	}
+
+.main a:hover{
+	color: #999999;
+	}
+	
+.skills{
+	border: 3px solid white;
+	border-radius:5px;
+	text-align:center;
+	background-color: #6ac8ba;
+	color: #FFFFFF;
+	height: 180px;
+	}
+
+.skills p{
+	font-size: 14px;
+	}
+	
+.vertical>p{
+	padding-top: 5px;
+	}	
+	
+.vertical{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	}
+	
+.skills:hover{
+	transition:ease-in .3s;
+	transition:ease-out .3s;
+	background-color: #FFFFFF;
+	color: #6ac8ba;
+	}
