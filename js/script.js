@@ -114,14 +114,14 @@
 	function drawC() {
       var data = new google.visualization.DataTable();
       data.addColumn('string', 'Year');
-      data.addColumn('number', 'Quarter 1');
-      data.addColumn('number', 'Quarter 2');
-	  data.addColumn('number', 'Quarter 3');
-	  data.addColumn('number', 'Quarter 4');
+      data.addColumn('number', 'South West');
+      data.addColumn('number', 'South East');
+	  data.addColumn('number', 'North West');
+	  data.addColumn('number', 'North East');
 
       data.addRows([
-        ['2013', {v: 80057, f: '$80,057'}, {v: 63215, f: '$63,215'}, {v: 82924, f: '$82,924'}, {v: 76260, f: '$76,260'}],
-        ['2014', {v: 66726, f: '$66,726'}, {v: 76493, f: '$76,493'}, {v: 85992, f: '$85,992'}, {v: 61761, f: '$61,761'}],
+        ['2013', {v: 75414, f: '$75,415'}, {v: 76722, f: '$76,722'}, {v: 81070, f: '$81,070'}, {v: 69249, f: '$69,249'}],
+        ['2014', {v: 60254, f: '$60,254'}, {v: 81421, f: '$81,421'}, {v: 61673, f: '$61,673'}, {v: 87624, f: '$87,624'}],
 
       ]);
 
