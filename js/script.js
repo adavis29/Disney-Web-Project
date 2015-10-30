@@ -138,8 +138,11 @@
         vAxis: {
           title: 'Sales (in thousands)',
 		  format: 'currency',
-		  minValue: 0,
-		  maxValue: 370000 
+		  viewWindowMode:'explicit',
+            viewWindow: {
+              max:320000,
+              min:0
+			},
         }
       };
 
