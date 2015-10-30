@@ -70,6 +70,7 @@ a:hover{
 	}
 
 /*Navigation*/
+
 nav{
 	border-bottom: 2px white dotted;
 	border-top: 2px white dotted;
@@ -110,8 +111,8 @@ img{
 	}
 
 .aside p, li{
-	line-height:22px;}
-	
+	line-height:22px;
+	}
 	
 /*Body*/
 	
@@ -166,6 +167,8 @@ img{
 	background-color: #FFFFFF;
 	color: #6ac8ba;
 	}
+
+/*Data Sets*/
 	
 .data{
 	padding: 0;
@@ -179,7 +182,8 @@ img{
 	text-align:center;
 	vertical-align:middle;
 	font-family:"Walkway";
-	font-size: 48px;}
+	font-size: 48px;
+	}
 	
 .data h2{
 	font-size:30px;
@@ -187,9 +191,10 @@ img{
 	padding-bottom:5px;
 	}
 	
-	#chart_div{
-		margin-left:60px;}
+#chart_div{
+	margin-left:60px;
+	}
 	
-#linechart_material{
+#chart_div2{
 	margin-left: 30px;
 	}
