@@ -60,6 +60,10 @@ a:hover{
 	height: 210px;
 	}
 
+.header2{
+	border-bottom-left-radius: 5px;
+	}
+
 .header h1{
 	color: #ffffff;
 	text-align:center;
@@ -161,4 +165,31 @@ img{
 	transition:ease-out .3s;
 	background-color: #FFFFFF;
 	color: #6ac8ba;
+	}
+	
+.data{
+	padding: 0;
+	margin-top: 10px;
+	border-radius: 3px;
+	background-color: rgba(255,255,255,1.0);
+	}
+
+.data h1{
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+	font-family:"Walkway";
+	font-size: 48px;}
+	
+.data h2{
+	font-size:30px;
+	text-align: center;
+	padding-bottom:5px;
+	}
+	
+	#chart_div{
+		margin-left:60px;}
+	
+#linechart_material{
+	margin-left: 30px;
 	}
